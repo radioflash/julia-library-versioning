@@ -15,7 +15,7 @@ This is already confusing by itself, but made even worse when the library mainta
 
 ### Transitioning to v1.0.0 is always gonna be a breaking change
 
-When the library maintainer decides that the lib is "good enough", and wants to assign v1.0.0, than that is *necessarily* going to be a breaking change.
+When the maintainer of a <v1.0.0 library decides that the lib is "good enough", and wants to assign v1.0.0, than that is *necessarily* going to be a breaking change.
 
 This is really harmful because at that point the library has presumably numerous users, no critical bugs, everything is fine, but in order to make that version v1.0.0 every single user of the library will have to update their compatibility info-- potentially without any direct feature-gain/justification whatsoever.
 
